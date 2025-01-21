@@ -1,0 +1,97 @@
+PYTHON
+========
+Python is a popular programming language.It was created by Guido van Rossum, and released in 1991.
+
+It is used for:
+================
+# web development (server-side),
+# software development,
+# mathematics,
+# system scripting.
+# Python can be used on a server to create web applications.
+
+What can Python do?
+======================
+# Python can be used on a server to create web applications.
+# Python can be used alongside software to create workflows.
+# Python can connect to database systems. It can also read and modify files.
+# Python can be used to handle big data and perform complex mathematics.
+# Python can be used for rapid prototyping, or for production-ready software development.
+
+Why Python?
+============
+# Python works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc).
+# Python has a simple syntax similar to the English language.
+# Python has syntax that allows developers to write programs with fewer lines than some other programming languages.
+# Python runs on an interpreter system, meaning that code can be executed as soon as it is written. This means that prototyping can be very quick.
+# Python can be treated in a procedural way, an object-oriented way or a functional way.
+
+1. Interpreted Language:
+========================
+Python is an interpreted language, meaning that its code is executed line-by-line by an interpreter at runtime. Here's the process:
+
+Source Code to Bytecode:
+-----------------------
+When you run a Python script, the interpreter first translates the high-level source code (.py files) into an intermediate format called bytecode (.pyc files, stored in the __pycache__ directory).
+This bytecode is a low-level representation of your code that the Python Virtual Machine (PVM) can understand.
+
+Bytecode Execution:
+-------------------
+The PVM executes the bytecode, converting it into machine-level instructions specific to the underlying hardware.
+
+Dynamic Execution:
+--------------------
+Since Python interprets code at runtime, it can handle dynamic behaviors like variable type assignment and importing modules dynamically.
+
+2. Procedural Paradigm:
+=======================
+Python supports the procedural programming paradigm, where:
+
+Code is organized into functions.
+It focuses on procedures (functions) that operate on data.
+You write sequences of instructions to perform operations, making it easy to understand and debug.
+Example:
+
+def greet(name):
+    print(f"Hello, {name}!")
+
+greet("Shubhangi")
+
+3. Object-Oriented Paradigm:
+============================
+Python fully supports object-oriented programming (OOP), where:
+
+Classes and Objects:
+----------------------
+# Code is organized into classes, which act as blueprints for objects.
+# Objects are instances of classes with attributes and methods.
+
+Key Features of OOP in Python:
+-------------------------------
+Encapsulation: Grouping data (attributes) and methods together.
+Inheritance: Allowing a class to inherit properties and methods from another class.
+Polymorphism: Using a single interface for different data types.
+Abstraction: Hiding implementation details.
+Example:
+
+class Person:
+    def __init__(self, name):
+        self.name = name
+
+    def greet(self):
+        print(f"Hello, my name is {self.name}.")
+
+person = Person("Shubhangi")
+person.greet()
+
+Note:
+=====
+# Python is interpreted because it executes code line-by-line through an interpreter.
+# It supports procedural programming with functions and sequences of instructions.
+# It is object-oriented, allowing the use of classes and objects to model real-world problems.
+
+Python Syntax compared to other programming languages
+=======================================================
+# Python was designed for readability, and has some similarities to the English language with influence from mathematics.
+# Python uses new lines to complete a command, as opposed to other programming languages which often use semicolons or parentheses.
+# Python relies on indentation, using whitespace, to define scope; such as the scope of loops, functions and classes. Other programming languages often use curly-brackets for this purpose.
